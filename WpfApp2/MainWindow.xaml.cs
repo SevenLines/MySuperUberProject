@@ -47,56 +47,6 @@ namespace WpfApp2
         {
             InitializeComponent();
 
-            Auditories = new ObservableCollection<Auditory>{
-                      new Auditory{
-                          Day = 1, Pair= 1,                          
-                          Discipline ="1Программирование",
-                          Group ="ИСТБ-17-1",
-                          Teacher ="Столбов",
-                          Type =RaspisItemTypes.Lab },                        
-                      new Auditory{
-                          Day = 2, Pair= 2,
-                          Discipline ="Мат. логика",
-                          Group ="ИСТБ-17-1",
-                          Teacher ="Носырева",
-                          Type =RaspisItemTypes.Lection },
-                      new Auditory{
-                          Day = 4, Pair= 3,
-                          Discipline ="3Программирование",
-                          Group ="ИСТБ-17-1",
-                          Teacher ="Столбов",
-                          Type =RaspisItemTypes.Lab },
-                      new Auditory{
-                          Day = 6, Pair= 4,
-                          Discipline ="Мат. логика",
-                          Group ="ИСТБ-17-1",
-                          Teacher ="Носырева",
-                          Type =RaspisItemTypes.Lection },
-                      new Auditory{
-                          Day = 1, Pair= 5,
-                          Discipline ="5Программирование",
-                          Group ="ИСТБ-17-1",
-                          Teacher ="Столбов",
-                          Type =RaspisItemTypes.Lab },
-                      new Auditory{
-                          Day = 8, Pair= 6,
-                          Discipline ="Мат. логика",
-                          Group ="ИСТБ-17-1",
-                          Teacher ="Носырева",
-                          Type =RaspisItemTypes.Lection },
-                      new Auditory{
-                          Day = 7, Pair= 7,
-                          Discipline ="7Программирование",
-                          Group ="ИСТБ-17-1",
-                          Teacher ="Столбов",
-                          Type =RaspisItemTypes.Lab },
-                      new Auditory{
-                          Day = 3, Pair= 8,
-                          Discipline ="Мат. логика",
-                          Group ="ИСТБ-17-1",
-                          Teacher ="Носырева",
-                          Type =RaspisItemTypes.Lection },};
-
             foreach (var aud in Auditories)
             {
                 /**

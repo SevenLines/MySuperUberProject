@@ -9,6 +9,9 @@ using System.Windows.Data;
 
 namespace WpfApp2
 {
+    /**
+     * test
+     */
     public class NullVisibilityConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
